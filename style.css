@@ -1,11 +1,15 @@
 body{
   margin: 0;
 font-family: 'Open Sans', sans-serif;
+
 background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%); /* este é para colocar uma cor no fundo*/
+
+min-height: 100vh; /* este aqui é para não ter rolagem na pagina, ela ficar meio fixa */
 }
 .page{
   width: 1000px;
-  margin:  65px auto 0;
+  margin:  0 auto ; /*aqui a margin é 0 e auto nas laterais para haver margin em cima de 65px precimsamos adicionar outro elemento*/
+  padding-top: 65px; /* aqui coloca a margin que vai dar um preenchimento da parte de cima do treine.me, se usar margin 65px vai empurrar para baixo ai acontece rolamento */
 }
 
 /* este aqui é para deixar tudo que ets na tag nav no html mais bonito */ 
