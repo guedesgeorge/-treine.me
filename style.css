@@ -111,7 +111,11 @@ footer {
   font-size: 14px; /* largura da fonte*/ 
   line-height: 28px; /*altura da fonte */
   text-align: center; /* este aqui centraliza o footer htm */
-  margin-top: 80px; /* este aqui define o espaçamento da imagem para o footer*/
+  margin-top: 300px; /* este aqui define o espaçamento da imagem para o footer este é responsavel pela mensagem fica tocando no fundo da pagina*/
+  
+ 
+  
+  
 }
 
 footer a{
